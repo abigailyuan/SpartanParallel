@@ -116,8 +116,7 @@
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/hpcmemory.png" /><br />
-Image from Lawrence Livermore National Laboratory, U.S.A
+<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/hpcmemory.png" />
 -- *Slide End* --
 
 -- *Slide* --
@@ -161,8 +160,7 @@ Image from Lawrence Livermore National Laboratory, U.S.A
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/fork_join2.gif" /><br />
-Image from Lawrence Livermore National Laboratory
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/fork_join2.gif" />
 -- *Slide End* --
 
 -- *Slide* --
