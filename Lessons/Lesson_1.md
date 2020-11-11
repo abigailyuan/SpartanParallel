@@ -68,6 +68,9 @@
 * Four basic possibilities: Single Instruction Stream, Single Data Stream (SISD), Single Instruction Stream, Multiple Data Streams (SIMD), Multiple Instruction Streams, Single Data Stream (MISD), Multiple Instruction Streams, Multiple Data Streams (MIMD)
 -- *Slide End* --
 
+-- *Slide* --
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/cao.png" />
+-- *Slide End* --
 
 -- *Slide* --
 ### Part 1: Flynn's Taxonomy
@@ -141,7 +144,7 @@ Image from Lawrence Livermore National Laboratory, U.S.A
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/amdhal.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/amdhal.png" />
 -- *Slide End* --
 
 -- *Slide* --
@@ -158,7 +161,7 @@ Image from Lawrence Livermore National Laboratory, U.S.A
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/fork_join2.gif" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/fork_join2.gif" />
 Image from Lawrence Livermore National Laboratory
 -- *Slide End* --
 
@@ -244,9 +247,9 @@ A *construct* starts with the directive, includes the structured block, and the 
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/work_share1.png" />
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/work_share2.png" />
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/work_share3.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/work_share1.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/work_share2.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/work_share3.png" />
 -- *Slide End* --
 
 -- *Slide* --
@@ -329,8 +332,8 @@ A *construct* starts with the directive, includes the structured block, and the 
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/scatter.png" />
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/gather.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/scatter.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/gather.png" />
 -- *Slide End* --
 
 -- *Slide* --
@@ -347,12 +350,12 @@ A *construct* starts with the directive, includes the structured block, and the 
 
 -- *Slide* --
 ### Part 3: Reductions
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/reduce.png" /> 
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/reduce.png" /> 
 -- *Slide End* --
 
 -- *Slide* --
 ### Part 3: Reductions
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/allreduce.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/allreduce.png" />
 -- *Slide End* --
 
 -- *Slide* --
@@ -420,7 +423,7 @@ A *construct* starts with the directive, includes the structured block, and the 
 * When making changes to code, separating between dev and prod versions is recommended.
 * Production code might work in one environment, but not another (e.g., compiler differences).
 * When you have a working dev code, create a patch file and apply when required:
-* `diff -u gdbtest.c gdbtest2.c > gdbpatch.patch`, `patch gdbtest.c gdbpatch.patch`
+* `diff -Naur gdbtest.c gdbtest2.c > gdbpatch.patch`, `patch gdbtest.c gdbpatch.patch`
 -- *Slide End* --
 
 -- *Slide* --
@@ -455,5 +458,5 @@ Load Balancing., Locality - Communication structure., Synchronization - Locking 
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/hypnotoad.png" height="200%" width="200%" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/hypnotoad.png" height="200%" width="200%" />
 -- *Slide End* --
