@@ -93,7 +93,7 @@
 
 -- *Slide* --
 ### Part 1: Multicore Drivers
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/intelcpu.png" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/intelcpu.jpg" />
 -- *Slide End* --
 
 -- *Slide* --
@@ -116,7 +116,7 @@
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/hpcmemory.png" />
+<img src="https://raw.githubusercontent.com/UoM-ResPlat-DevOps/SpartanParallel/master/Images/hpcmemory.png" /><br />
 Image from Lawrence Livermore National Laboratory, U.S.A
 -- *Slide End* --
 
@@ -161,7 +161,7 @@ Image from Lawrence Livermore National Laboratory, U.S.A
 -- *Slide End* --
 
 -- *Slide* --
-<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/fork_join2.gif" />
+<img src="https://raw.githubusercontent.com/levlafayette/SpartanParallel/master/Images/fork_join2.gif" /><br />
 Image from Lawrence Livermore National Laboratory
 -- *Slide End* --
 
