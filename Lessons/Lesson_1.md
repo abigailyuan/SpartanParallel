@@ -8,7 +8,7 @@
 
 -- *Slide* --
 ### Part 0: Slide Respository
-* A copy of the slides and same code is available at: https://github.com/UoM-ResPlat-DevOps/SpartanParallel
+* A copy of the slides and same code is available at: https://github.com/levlafayette/SpartanParallel
 * Make use of our resources: `dashboard.hpc.unimelb.edu.au`,  `hpc-support@unimelb.edu.au`, `man spartan`, `/usr/local/common`
 -- *Slide End* --
 
@@ -436,6 +436,12 @@ A *construct* starts with the directive, includes the structured block, and the 
 ### Part 4: Optimsation
 * "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming." (Knuth, 1974)
 * Work with a top-down structure. Think big, then small. Look for data flow issues (within and outside of the program). Look at overall architecture. Then look at data structures and algorithm choices. Then profiling specific parts of the code to identify potential areas of gain.
+-- *Slide End* --
+
+-- *Slide* --
+### Part 4: Perf
+* The `perf` tool is powerful: it can instrument CPU performance counters, tracepoints, kprobes, and uprobes (dynamic tracing). It is capable of lightweight profiling. Run `perf --help` to see summar of options. List of events from `perf list`. Main command `perf stat`.
+* It can be applied across an entire job (`perf stat srun -n 2 ./mpi-debug`), or individual tasks (`srun -n 2 perf stat ./mpi-debug`). Note however that the `perf record` will not work for the later. 
 -- *Slide End* --
 
 -- *Slide* --
